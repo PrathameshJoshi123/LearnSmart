@@ -1,0 +1,43 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 60px); /* Adjust height based on navbar height */
+    width: 100%;
+    background: linear-gradient(135deg, #1f1b2e, #3c3567);
+    text-align: center;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevent scrolling */
+  }
+  
+  .home-container h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #bb86fc;
+  }
+  
+  .home-container p {
+    font-size: 18px;
+    max-width: 600px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+  }
+  
+  .home-container button {
+    padding: 15px 30px;
+    font-size: 16px;
+    background-color: #3c3567;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home-container button:hover {
+    background-color: #bb86fc;
+  }
+  
